@@ -13,6 +13,8 @@
 
 body {
     background-color: var(--neutral-main-dark-blue);
+    justify-content: center;
+    align-items: center;
 }
 
 .primary-container{
@@ -40,10 +42,10 @@ html {
     width: 300px;
     height: 550px;
     border-radius: 8px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 50px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin
     padding: 2%;
     box-shadow: 0px 20px 5px 20px rgba(0, 0, 0, 0.1), 0px 20px 25px 40px rgba(0, 0, 0, 0.1);  
 }
@@ -52,6 +54,7 @@ html {
     height: 270px;
     width: 270px;
     margin: auto;
+    margin-top: 10px;
     border-radius: 10px;
     background: url(./images/image-equilibrium.jpg);
     background-size: contain;
@@ -136,12 +139,9 @@ hr {
 .attribution {
     font-size: 12px; 
     text-align: center; 
-    margin: 10px;
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-  
+    margin-top: 30px;
+}  
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
